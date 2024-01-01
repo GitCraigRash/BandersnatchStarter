@@ -1,0 +1,3 @@
+A RandomForest Classifier is a meta-estimator that runs an ensemble of decision tree classifiers. It fits subsets of the dataset before calculating the averaging.  The results provide predictive accuracy and a resistance to overfitting. 
+
+As far as performance, RandomForestClassifier’s confusion matrix showed it to be more reliable than the other models. In addition, RandomForestClassifier’s accuracy was not affected by StandardScalar. This was important because the main.py immediately feeds the user input into the model. Thus StandardScalar could not be applied to user input. Other modes lost significant accuracy without StandardScalar. 
